@@ -1,12 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=Yi, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Frank Fan's personal website</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/col.css">
+    <link rel="stylesheet" href="css/3cols.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/nav.css">
+    <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,700,800" rel="stylesheet">
+
 </head>
+
 <body>
-    
+    <div class="background-content">
+        <div class="background-content">
+            <header class="main-header">
+                <div class="container">
+                    <div class="sub-header">
+                        <h1>Frank Fan</h1>
+                        <nav>
+                            <ul class="main-nav js-main-nav">
+                                <li>
+                                    <a class="nav-item" href="#portfolio">Portfolio </a>
+                                </li>
+                                <li>
+                                    <a class="nav-item" href="#skills">Skills</a>
+                                </li>
+                                <li>
+                                    <a class="nav-item" href="#contact">Contact</a>
+                                </li>
+
+                            </ul>
+
+                            <a class="mobile-nav-icon js--nav--icon">
+                                <i class="ion-navicon-round"></i>
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="self-intro">
+                        <div class="text">
+                            <p>Hi! I'm a software developer who loves design and programming.Recently I do self-learning online at Udemy and Immoc, which helps me improve the front-end web development skills.
+                                Now, i am ready to utilize those skills to resolve the issues in real world!</p>
+                            <div class="icons">
+                                <a href="https://github.com/imbafym" target="_blank">
+                                    <i class="ion-social-github"></i> 
+                                </a>
+                                <a href="https://github.com/imbafym" target="_blank">
+                                    <i class="ion-social-linkedin"></i>   
+                                </a>
+                                <a href="mailto:imbafym@gmail.com">
+                                    <i class="ion-ios-email"></i>   
+                                </a>
+                            </div>
+                        </div>
+                        <div class="profile-img">
+                            <div class="img-wrapper">
+                                <img style="height:255px" src="img/avatar.jpg" alt="Avatar" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="main-content">
+                <div class="container">
+                    <div id="portfolio" class="js--wp--1">
+                        <h2>Portfolio</h2>
+                        <div class="portfolio-item">
+                            <div class="img-wrapper">
+                                <img src="img/food_website.png" alt="FOOD WEBSITE" />
+                            </div>
+                            <h3>Responsive Website</h3>
+                            <div >
+                                <a class="btn btn-full" href="https://onmifood.firebaseapp.com/">Demo</a>
+                                <a class="btn btn-full" href="https://github.com/imbafym/food-website">Source</a>
+                            </div>
+                            <p>This project shows the responsive page with JavaScript, HTML &amp; Css .</p>
+                        </div>
+ 
+                    </div>
+                    <div id="skills">
+                        <div class="container">
+                            <h2>Skills</h2>
+                        <div class="js--wp--2">
+                            <a frameborder="0" data-theme="dark" data-layers="1,2,3,4" data-stack-embed="true" href="https://embed.stackshare.io/stacks/embed/4dfdf3a3f2d6f726fbe1babf2ccd7d"/></a>    
+                            <script async src="https://cdn1.stackshare.io/javascripts/client-code.js" charset="utf-8"></script>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="main-footer" id="contact">
+                <div class="container">
+                    <div class="contact" class="js--wp--3">
+                        <h2>Contact</h2>
+                        <p>I am happy to hear from you!</p>
+                            <div class="form-box ">
+                                    <div class="row">
+                                        <form method="post" action="#" class="contact-form">
+                                            <div class="row">
+                                                <div class="col span_1_of_3">
+                                                    <label for="name">Name</label>
+                                                </div>
+                                                <div class="col span_2_of_3">
+                                                    <input type="text" name="name" id="name" placeholder="your name" required>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col span_1_of_3">
+                                                    <label for="email">Email</label>
+                                                </div>
+                                                <div class="col span_2_of_3">
+                                                    <input type="email" name="email" id="email" placeholder="your email" required>
+                                                </div>
+                        
+                                            </div>
+                                            <div class="row">
+                                                <div class="col span_1_of_3">
+                                                    <label>Drop a line</label>
+                                                </div>
+                                                <div class="col span_2_of_3">
+                                                    <textarea name="message" placeholder="Your message"></textarea>
+                                                </div>
+                        
+                        
+                                            </div>
+                                            <div class="row">
+                                                <div class="col span_1_of_3">
+                                                    <label>&nbsp;</label>
+                                                </div>
+                                                <div class="col span_2_of_3">
+                                                    <input type="submit" value="Send it!">
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                        
+                                </div>
+                    </div>
+                    <div class="sub-footer">
+                        <span>Frank Fan</span>
+                        <a href="#" class="back-to-top">Back to Top</a>
+
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr.js"></script>
+    <script src="js/waypoint.js"></script>
+    <script src="js/script.js" type="text/javascript" charset="utf-8"></script>
 </body>
+
 </html>
